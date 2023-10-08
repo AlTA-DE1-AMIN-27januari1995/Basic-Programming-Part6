@@ -1,5 +1,5 @@
 def caesar(offset, input_str):
-    return ''
+    return [item for item in offset if item not in input_str]
 
 if __name__ == '__main__':
     print(caesar(3, "abc")) # def
